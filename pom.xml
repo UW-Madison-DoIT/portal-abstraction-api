@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <parent>
+        <groupId>edu.wisc.doit.code</groupId>
+        <artifactId>shared-tools-public-parent</artifactId>
+        <version>7</version>
+    </parent>
+    
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>edu.wisc.my.service</groupId>
+    <artifactId>portal-abstraction-api</artifactId>
+    <version>1.1.3-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>Portal Abstraction Layer API</name>
+    <description>API layer used to access portal-specific APIs.</description>
+    
+
+    <repositories>
+        <repository>
+            <id>code.doit-public-releases</id>
+            <url>https://code.doit.wisc.edu/maven/content/repositories/public-releases/</url>
+        </repository>
+    </repositories>
+    
+    
+    <dependencies>
+
+        <!-- ===== Compile Time Dependencies ============================== -->
+        
+
+        <!-- ===== Runtime Dependencies ================================== -->
+        
+
+        <!-- ===== Provided Dependencies ================================== -->
+        <dependency>
+            <groupId>javax.portlet</groupId>
+            <artifactId>portlet-api</artifactId>
+            <version>2.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
