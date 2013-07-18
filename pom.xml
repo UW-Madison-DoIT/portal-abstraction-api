@@ -14,7 +14,6 @@
 
     <name>Portal Abstraction Layer API</name>
     <description>API layer used to access portal-specific APIs.</description>
-    
 
     <repositories>
         <repository>
@@ -23,6 +22,12 @@
         </repository>
     </repositories>
     
+    <scm>
+        <connection>scm:git:git@github.com:UW-Madison-DoIT/portal-abstraction-api.git</connection>
+        <developerConnection>scm:git:git@github.com:UW-Madison-DoIT/portal-abstraction-api.git</developerConnection>
+        <url>https://github.com/UW-Madison-DoIT/portal-abstraction-api</url>
+        <tag>HEAD</tag>
+    </scm>
     
     <dependencies>
 
