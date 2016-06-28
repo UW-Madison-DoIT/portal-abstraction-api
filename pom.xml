@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>edu.wisc.my.service</groupId>
     <artifactId>portal-abstraction-api</artifactId>
-    <version>1.1.4</version>
+    <version>1.1.5-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Portal Abstraction Layer API</name>
@@ -26,7 +26,7 @@
         <connection>scm:git:git@github.com:UW-Madison-DoIT/portal-abstraction-api.git</connection>
         <developerConnection>scm:git:git@github.com:UW-Madison-DoIT/portal-abstraction-api.git</developerConnection>
         <url>https://github.com/UW-Madison-DoIT/portal-abstraction-api</url>
-        <tag>portal-abstraction-api-1.1.4</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
